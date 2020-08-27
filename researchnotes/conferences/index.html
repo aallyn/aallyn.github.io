@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Andrew Allyn | Conferences and presentations</title>
+<meta name="description" content="Quantitative Ecologist
+">
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/css/mdb.min.css" integrity="sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g=" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"  integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/researchnotes/conferences/">
+
+<!-- Open Graph -->
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm fixed-top">
+  <div class="container">
+    
+      
+      <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Andrew</span> Allyn</a>
+    
+    <!-- Navbar Toogle -->
+    <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar top-bar"></span>
+      <span class="icon-bar middle-bar"></span>
+      <span class="icon-bar bottom-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse text-right" id="navbarNav">
+      <ul class="navbar-nav ml-auto flex-nowrap">
+        <!-- About -->
+        <li class="nav-item ">
+          <a class="nav-link" href="/">
+            about
+            
+          </a>
+        </li>
+        <!-- Projects -->
+        <li class="nav-item ">
+          <a class="nav-link" href="/projects">
+            projects
+            
+          </a>
+        </li>
+        <!-- Publications -->
+        <li class="nav-item ">
+          <a class="nav-link" href="/publications">
+            publications
+            
+          </a>
+        </li>
+        <!-- Research notes -->
+        <li class="nav-item ">
+          <a class="nav-link" href="/researchnotes/">
+            research notes
+            
+          </a>
+        </li>
+        <!-- Archived projects -->
+        <li class="nav-item ">
+          <a class="nav-link" href="/archivedprojects/">
+            archived projects
+            
+          </a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Conferences and presentations</h1>
+    <p class="post-description"></p>
+  </header>
+
+  <article>
+    <h1 id="isec-2020">ISEC 2020</h1>
+
+<p><strong>Florian Hartig: Scalability and accuracy of joint species distribution models</strong></p>
+
+<p><em>Background</em>
+Macro-scale species distribution models and ordination metacommunity models both ignore biotic interactions.</p>
+
+<p>Joint species distribution models hopefully help fill this gap.</p>
+
+<p>For example:
+    P/A ~ Env       + Your basic SDM</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>P/A(1) ~ Env    + Stacked SDM if we fit models to each species
+P/A(2) ~ Env        - Multi-species if estimates for slope are 
+P/A(3) ~ Env          connected through random effects
+
+P/A(1) ~ Env X  + Joint SDM if we also include covariance between 
+P/A(2) ~ Env XX   species, under the assumption that some species   
+                  will be more/less often found together than expected by the environment along BECAUSE of their interactions. 
+
+P/A(1) ~ Env X + SPACE
+</code></pre></div></div>
+
+<p><em>What does the species covariance actually mean?</em>
+Species associations AFTER accounting for environment and space
+Tempting to attribute assocations to biotic interactions, but this isn’t necessarily true. So, the question becomes what can we do with these associations and what can we learn from them?</p>
+
+<p><em>What can we do with the species covariance matrices?</em></p>
+
+<p>Example
+    Link(binomial) ~ Env + Species covariance matrix + Space
+    Link(binomial) ~ Env + MVN \((Sigma)\) + Space</p>
+
+<p>There is interesting information in A, so we would be foolish not to try to estimate A and think about what we can do with it.</p>
+
+<p>We have two problems:</p>
+<ol>
+  <li>Computationally costly – break down with 10/20 species</li>
+  <li>Number of parameters scale quadratically – need to be concerned with overfitting/regularization</li>
+</ol>
+
+<p>Solutions?</p>
+<ol>
+  <li>Approximate with variational Bayes or Laplace approximation and using latent variables
+    <ul>
+      <li>See 24B1 and https://theoreticalecology.github.io/s-jsdms</li>
+    </ul>
+  </li>
+  <li>If we don’t need to worry about speed, what structure should we use to minimize estimation error? This is particularly important given that many times with these community data sets we are dealing with very WIDE data sets (e.g., 100 sites, 100 species).
+    <ol>
+      <li>Re-parameterize the covariance matrix using a low-rank approximation using the latent-variable approach (Warton et al. 2015)</li>
+      <li>Penalize the complexity of the covariance matrix directly</li>
+    </ol>
+  </li>
+</ol>
+
+<p>Propose a new high-rank shrinkage regularization procedure</p>
+
+<p>See preprint on arxiv.org at abs/2003.05331</p>
+
+<p><strong>Janine Illian - INLA and INLAbru</strong></p>
+
+<p><em>Background</em>
+INLA  stands for integrated nested Laplace approximation and is a spatial differential equations approach (SPDE). It assumes that spatial data have been collected throughout the area of interst and that the predictors are linear.</p>
+
+<p>INLAbru extends INLA by relaxing this collection assumption, and interprets the data as thinned point patterns by fitting an observation process AND process of interest. It also allows for non-linear predictors (e.g., non-linear detection functions, non-linear relationships).</p>
+
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2020 Andrew Allyn.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Load Core and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.0/umd/popper.min.js" integrity="sha256-OH05DFHUWzr725HmuHo3pnuvUUn+TJuj8/Qz9xytFEw=" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/js/mdb.min.js"  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+
+<!-- Load KaTeX -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css" integrity="sha256-V8SV2MO1FUb63Bwht5Wx9x6PVHNa02gv8BgH/uH3ung=" crossorigin="anonymous" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.js" integrity="sha256-F/Xda58SPdcUCr+xhSGz9MA2zQBPb0ASEYKohl8UCHc=" crossorigin="anonymous"></script>
+<script src="/assets/js/katex.js"></script>
+
+
+
+<!-- Load Mansory & imagesLoaded -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<!-- Project Cards Layout -->
+<script type="text/javascript">
+  // Init Masonry
+  var $grid = $('.grid').masonry({
+    gutter: 10,
+    horizontalOrder: true,
+    itemSelector: '.grid-item',
+  });
+  // layout Masonry after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+  });
+</script>
+
+
+
+
+
+
+
+</html>
