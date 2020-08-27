@@ -1,0 +1,85 @@
+<header>
+
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
+  <div class="container">
+    {% if page.title != "about" %}
+      {% assign name = site.title | split: ' ' %}
+      <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/"><span class="font-weight-bold">{{ name | first }}</span> {{ name | last }}</a>
+    {% elsif site.show_social_icons %}
+      <!-- Social Icons -->
+      <div class="row ml-1 ml-sm-0">
+        {% include social.html %}
+      </div>
+    {% endif %}
+    <!-- Navbar Toogle -->
+    <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar top-bar"></span>
+      <span class="icon-bar middle-bar"></span>
+      <span class="icon-bar bottom-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse text-right" id="navbarNav">
+      <ul class="navbar-nav ml-auto flex-nowrap">
+        <!-- About -->
+        <li class="nav-item {% if page.title == 'about' %}active{% endif %}">
+          <a class="nav-link" href="{{ '/' | relative_url }}">
+            about
+            {% if page.title == "about" %}
+              <span class="sr-only">(current)</span>
+            {% endif %}
+          </a>
+        </li>
+        <!-- Projects -->
+        <li class="nav-item {% if page.title == 'projects' %}active{% endif %}">
+          <a class="nav-link" href="{{ '/projects' | relative_url }}">
+            projects
+            {% if page.title == "projects" %}
+              <span class="sr-only">(current)</span>
+            {% endif %}
+          </a>
+        </li>
+        <!-- Publications -->
+        <li class="nav-item {% if page.title == 'publications' %}active{% endif %}">
+          <a class="nav-link" href="{{ '/publications' | relative_url }}">
+            publications
+            {% if page.title == "publications" %}
+              <span class="sr-only">(current)</span>
+            {% endif %}
+          </a>
+        </li>
+        <!-- Research notes -->
+        <li class="nav-item {% if page.title == 'research notes' %}active{% endif %}">
+          <a class="nav-link" href="{{ '/researchnotes/' | relative_url }}">
+            research notes
+            {% if page.title == "research notes" %}
+              <span class="sr-only">(current)</span>
+            {% endif %}
+          </a>
+        </li>
+        <!-- Archived projects -->
+        <li class="nav-item {% if page.title == 'archived projects' %}active{% endif %}">
+          <a class="nav-link" href="{{ '/archivedprojects/' | relative_url }}">
+            archived projects
+            {% if page.title == "archived projects" %}
+              <span class="sr-only">(current)</span>
+            {% endif %}
+          </a>
+        </li>
+        {% if site.blog_name %}
+        <!-- Blog -->
+        <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
+          <a class="nav-link" href="{{ '/blog/' | relative_url }}">
+            blog
+            {% if page.title == "blog" %}
+            <span class="sr-only">(current)</span>
+            {% endif %}
+          </a>
+        </li>
+        {% endif %}
+      </ul>
+    </div>
+  </div>
+</nav>
+
+</header>
