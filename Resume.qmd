@@ -1,10 +1,11 @@
 ---
+title: Resume
 name: Andrew J.
 surname: Allyn
 position: "Senior Research Manager"
 address: "Gulf of Maine Research Institute"
-phone: +1 315 440 8420
-www: www.aallyn@github.io
+phone: 
+www: www.aallyn.github.io
 email: "andrew.allyn@gmail.com"
 github: aallyn
 orcid: 0000-0002-1584-0198

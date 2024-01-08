@@ -3,13 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "aallyn.github.io"
+  title: "Andrew Allyn"
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: Welcome
       - about.qmd
-      - resume.qmd
+      - Resume.qmd
 
 format:
   html:
