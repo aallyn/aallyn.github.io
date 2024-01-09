@@ -4,6 +4,7 @@ project:
 
 website:
   title: "Andrew Allyn"
+  search: false
   navbar:
     right:
       - href: index.qmd
@@ -21,6 +22,9 @@ format:
     theme: simplex
     css: styles.css
     toc: true
+  # pdf:
+  #   author: Andrew Allyn
+  #   pdf-engine: weasyprint
 
 
 

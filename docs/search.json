@@ -23,7 +23,7 @@
   {
     "objectID": "Resume.html",
     "href": "Resume.html",
-    "title": "Resume",
+    "title": "Education",
     "section": "",
     "text": "andrew.allyn@gmail.com\n\n\nEducation\n\n\n# A tibble: 3 × 5\n  what                                   when                  with  where why  \n  &lt;chr&gt;                                  &lt;chr&gt;                 &lt;chr&gt; &lt;chr&gt; &lt;lis&gt;\n1 PhD Marine Science and Technology      February 2012 - Febr… Univ… Amhe… &lt;chr&gt;\n2 MS Wildlife and Fisheries Conservation September 2008 - Feb… Univ… Amhe… &lt;chr&gt;\n3 BA English                             September 2003 - May… Conn… New … &lt;chr&gt;\n\n\n\n\nPublications\n\n\nFunding\n\n\n# A tibble: 1 × 5\n  what  when  with  where why      \n  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;list&gt;   \n1 Test  Test  Test  Test  &lt;chr [0]&gt;\n\n\n\n\nService\n\n\nTalks\n\n\n# A tibble: 1 × 5\n  what  when  with  where why      \n  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;list&gt;   \n1 Test  Test  Test  &lt;NA&gt;  &lt;chr [0]&gt;"
   }
