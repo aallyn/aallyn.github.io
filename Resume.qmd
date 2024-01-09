@@ -1,11 +1,5 @@
 ---
-author: Andrew Allyn
-title: Senior Research Manager
-format:
-  pdf:
-    toc: true
-    number-sections: true
-    colorlinks: true
+title: Resume
 date: "`r format(Sys.time(), '%B %Y')`"
 output: 
   vitae::awesomecv:
