@@ -1,22 +1,11 @@
 ---
-title: Resume
+author: Andrew Allyn
+title: Senior Research Manager
 format:
-  html:
-    toc: true
   pdf:
-    author: Andrew Allyn
-    pdf-engine: weasyprint
-css: cv.css
-format-links: [pdf]
-name: Andrew J.
-surname: Allyn
-position: "Senior Research Manager"
-address: "Gulf of Maine Research Institute"
-phone: 
-www: www.aallyn.github.io
-email: "andrew.allyn@gmail.com"
-github: aallyn
-orcid: 0000-0002-1584-0198
+    toc: true
+    number-sections: true
+    colorlinks: true
 date: "`r format(Sys.time(), '%B %Y')`"
 output: 
   vitae::awesomecv:

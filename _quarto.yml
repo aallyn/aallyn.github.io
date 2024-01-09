@@ -9,8 +9,8 @@ website:
       - href: index.qmd
         text: Welcome
       - Research.qmd
-      - Ramblings.qmd
       - Resume.qmd
+      - Ramblings.qmd
       - icon: github
         href: https://github.com/aallyn
       - icon: envelope-at-fill
