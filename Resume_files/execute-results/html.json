@@ -1,0 +1,17 @@
+{
+  "hash": "b184d74057b543ddf53759a942aca64b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Resume\nname: Andrew Allyn\nposition: \"Senior Research Manager\"\naddress: \"Gulf of Maine Research Institute\"\nphone: \nwww: aallyn.github.io\nemail: andrew.allyn@gmail.com\ngithub: aallyn\naboutme: \"\"\ndate: \"January 2024\"\nheadcolor: \"000000\"\noutput: vitae::awesomecv\n---\n\n\n::: {.print-only .contact-block}\nandrew.allyn@gmail.com\n:::\n\n\n\n\n\n# Education\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n# A tibble: 3 × 5\n  what                                   when                  with  where why  \n  <chr>                                  <chr>                 <chr> <chr> <lis>\n1 PhD Marine Science and Technology      February 2012 - Febr… Univ… Amhe… <chr>\n2 MS Wildlife and Fisheries Conservation September 2008 - Feb… Univ… Amhe… <chr>\n3 BA English                             September 2003 - May… Conn… New … <chr>\n```\n\n\n:::\n:::\n\n\n# Publications\n\n\n::: {.cell}\n\n:::\n\n\n# Funding\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n# A tibble: 1 × 5\n  what  when  with  where why      \n  <chr> <chr> <chr> <chr> <list>   \n1 Test  Test  Test  Test  <chr [0]>\n```\n\n\n:::\n:::\n\n\n# Service\n\n# Talks\n\n\n::: {.cell}\n::: {.cell-output .cell-output-stdout}\n\n```\n# A tibble: 1 × 5\n  what  when  with  where why      \n  <chr> <chr> <chr> <chr> <list>   \n1 Test  Test  Test  <NA>  <chr [0]>\n```\n\n\n:::\n:::",
+    "supporting": [
+      "Resume_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
