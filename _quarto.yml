@@ -5,15 +5,20 @@ project:
 website:
   title: "Andrew Allyn"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Welcome
-      - about.qmd
+      - Research.qmd
+      - Ramblings.qmd
       - Resume.qmd
+      - icon: github
+        href: https://github.com/aallyn
+      - icon: envelope-at-fill
+        href: mailto:andrew.allyn@gmail.com
 
 format:
   html:
-    theme: cosmo
+    theme: simplex
     css: styles.css
     toc: true
 

@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome and thanks for visiting!",
     "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "Resume.html",
-    "href": "Resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "Education\n\n\n# A tibble: 3 × 5\n  what                                   when                  with  where why  \n  &lt;chr&gt;                                  &lt;chr&gt;                 &lt;chr&gt; &lt;chr&gt; &lt;lis&gt;\n1 PhD Marine Science and Technology      February 2012 - Febr… Univ… Amhe… &lt;chr&gt;\n2 MS Wildlife and Fisheries Conservation September 2008 - Feb… Univ… Amhe… &lt;chr&gt;\n3 BA English                             September 2003 - May… Conn… New … &lt;chr&gt;\n\n\n\n\nPublications\n\n\nFunding\n\n\n# A tibble: 1 × 5\n  what  when  with  where why      \n  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;list&gt;   \n1 Test  Test  Test  Test  &lt;chr [0]&gt;\n\n\n\n\nService\n\n\nTalks\n\n\n# A tibble: 1 × 5\n  what  when  with  where why      \n  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;list&gt;   \n1 Test  Test  Test  &lt;NA&gt;  &lt;chr [0]&gt;"
+    "text": "Who am I? \n\nMy name is Andrew Allyn and I am a quantitative ecologist. Currently, I work as a senior research manager in Dr. Kathy Mills’ Integrated Systems Ecology Lab at the Gulf of Maine Research Institute in Portland, Maine. As someone who continues to benefit from the generosity of others providing their code, I am committed to open, reproducible and collaborative science. To that end, I provide all of my research code on GitHub. I am always interested in helping others adapt my code for their purposes, or chatting more generally about related analyses involving species distribution models, spatio-temporal models, climate change ecology, and ecological forecasting. I am also happy to discuss my work with more general audiences, especially college, high school or middle school students from under represented groups that have had limited exposure to the marine sciences world. When I am not behind the computer or in the field collecting data, I am likely outside, somewhere, exploring the outdoors.\n\n\n\nWhat do I do? \n\nI use models to predict the distribution and abundance of species under changing ecosystem conditions, with a focus on climate-driven ecosystem changes. Under this broad “species distribution modeling” umbrella, I am particularly motivated to identify and contribute to promising model developments that will increase our ability to more accurately predict species distribution and abundance. I work towards this goal through two main pathways. The first is applying and developing approaches that progress from “traditional” single species, environment-only species distribution models towards more holistic modeling approaches that account for multiple species and that can incorporate biological processes in the modeling structure. Taking these steps should help us better understand how predator-prey interactions and the structure of ecological communities may change in the future. The second pathway uses a combination of simulated and real data to dissect the influence of different components on model predictive skill and increase our knowledge of what type of problem ecological forecasting is. Is it an initial conditions problem like weather forecasting? Or is prediction skill influenced more by uncertainty around the drivers influencing species occurrence patterns? Although I am inherently interested in understanding the spatial and temporal dynamics of species occurrence patterns, ultimately I strive to communicate my work with resource users and managers so that the information can be used to help them plan for and adapt to anticipated changes."
   },
   {
     "objectID": "test_page.html",
@@ -21,10 +14,17 @@
     "text": "What would happen if I add this?"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome, thanks for visiting!",
+    "objectID": "Research.html",
+    "href": "Research.html",
+    "title": "Research",
     "section": "",
-    "text": "Who am I? My name is Andrew Allyn and I am a quantitative ecologist. Currently, I work as a quantitative research asssociate in Dr. Kathy Mills’ Integrated Systems Ecology Lab at the Gulf of Maine Research Institute in Portland, ME while nightlighting as a PhD student in the University of Massachusetts’ Intercampus Marine Science and Technology program with Dr. Curt Griffin. As someone who continues to benefit from the generosity of others providing their code, I am committed to open, reproducible and collaborative science. To that end, I provide all of my research code on GitHub. I am always interested in helping others adapt my code for their purposes, or chatting more generally about related analyses involving species distribution models, spatio-temporal models, climate change ecology, and ecological forecasting. I am also happy to discuss my work with more general audiences, especially college, high school or middle school students from under represented groups that have had limited exposure to the marine sciences world. When I am not behind the computer or in the field collecting data, I am likely outside, somewhere, exploring the outdoors.\n\n\nWhat do I do? I use models to predict the distribution and abundance of species under changing ecosystem conditions, with a focus on climate-driven ecosystem changes. Under this broad “species distribution modeling” umbrella, I am particularly motivated to identify and contribute to promising model developments that will increase our ability to more accurately predict species distribution and abundance. I work towards this goal through two main pathways. The first is applying and developing approaches that progress from “traditional” single species, environment-only species distribution models towards more holistic modeling approaches that account for multiple species and that can incorporate biological processes in the modeling structure. Taking these steps should help us better understand how predator-prey interactions and the structure of ecological communities may change in the future. The second pathway uses a combination of simulated and real data to dissect the influence of different components on model predictive skill and increase our knowledge of what type of problem ecological forecasting is. Is it an initial conditions problem like weather forecasting? Or is prediction skill influenced more by uncertainty around the drivers influencing species occurrence patterns? Although I am inherently interested in understanding the spatial and temporal dynamics of species occurrence patterns, ultimately I strive to communicate my work with resource users and managers so that the information can be used to help them plan for and adapt to anticipated changes."
+    "text": "Research projects coming soon…"
+  },
+  {
+    "objectID": "Resume.html",
+    "href": "Resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "andrew.allyn@gmail.com\n\n\nEducation\n\n\n# A tibble: 3 × 5\n  what                                   when                  with  where why  \n  &lt;chr&gt;                                  &lt;chr&gt;                 &lt;chr&gt; &lt;chr&gt; &lt;lis&gt;\n1 PhD Marine Science and Technology      February 2012 - Febr… Univ… Amhe… &lt;chr&gt;\n2 MS Wildlife and Fisheries Conservation September 2008 - Feb… Univ… Amhe… &lt;chr&gt;\n3 BA English                             September 2003 - May… Conn… New … &lt;chr&gt;\n\n\n\n\nPublications\n\n\nFunding\n\n\n# A tibble: 1 × 5\n  what  when  with  where why      \n  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;list&gt;   \n1 Test  Test  Test  Test  &lt;chr [0]&gt;\n\n\n\n\nService\n\n\nTalks\n\n\n# A tibble: 1 × 5\n  what  when  with  where why      \n  &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;chr&gt; &lt;list&gt;   \n1 Test  Test  Test  &lt;NA&gt;  &lt;chr [0]&gt;"
   }
 ]
