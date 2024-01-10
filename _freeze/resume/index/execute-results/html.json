@@ -1,0 +1,15 @@
+{
+  "hash": "4516479602cda916800adc7f07e63cfc",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Resume\ndescription: \"\"\ndate: 2024-01-09\ntitle-block-banner: \"\"\npublished-title: CV last updated\nengine: knitr\ncv:\n  pdf: \"Resume.pdf\"\n---\n\n::: {.cell}\n<style type=\"text/css\">\n.embed-container {\n    position: relative;\n    padding-bottom: 129%;\n    height: 0;\n    overflow: hidden;\n    max-width: 100%;\n}\n\n.embed-container iframe,\n.embed-container object,\n.embed-container embed {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n}\n</style>\n:::\n\n```{=html}\n<div class=\"embed-container\">\n  <iframe src=\"Resume.pdf\" style=\"border: 0.5px\"></iframe>\n</div>\n```",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
