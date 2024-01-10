@@ -19,6 +19,8 @@ website:
         href: research/Research.qmd
       - text: Ramblings
         href: ramblings/Ramblings.qmd
+      - text: Resume
+        href: resume/Resume.qmd
       - icon: github
         href: https://github.com/aallyn
       - icon: envelope-at-fill
