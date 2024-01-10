@@ -1,12 +1,8 @@
 project:
   type: website
   output-dir: docs
-  render:
-    - "*.qmd"
-    - "*.md"
-    - "!etc/"
-  resources:
-    - "Resources/**"
+
+freeze: true
 
 website:
   title: "Andrew Allyn"
