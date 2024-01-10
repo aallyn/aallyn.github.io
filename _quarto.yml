@@ -13,14 +13,14 @@ website:
   search: false
   navbar:
     right:
-      - text: Welcome
+      - text: "Welcome"
         href: index.qmd
-      - text: Research
-        href: research/Research.qmd
-      - text: Ramblings
-        href: ramblings/Ramblings.qmd
-      - text: Resume
-        href: resume/Resume.qmd
+      - text: "Research"
+        href: research/index.qmd
+      - text: "Ramblings"
+        href: ramblings/index.qmd
+      - text: "Resume"
+        href: resume/index.qmd
       - icon: github
         href: https://github.com/aallyn
       - icon: envelope-at-fill
