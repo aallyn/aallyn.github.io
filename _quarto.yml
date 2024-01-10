@@ -1,17 +1,24 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "*.md"
+    - "!etc/"
+  resources:
+    - "Resources/**"
 
 website:
   title: "Andrew Allyn"
   search: false
   navbar:
     right:
-      - href: index.qmd
-        text: Welcome
-      - Research.qmd
-      - Resume.qmd
-      - Ramblings.qmd
+      - text: Welcome
+        href: index.qmd
+      - text: Research
+        href: research/Research.qmd
+      - text: Ramblings
+        href: ramblings/Ramblings.qmd
       - icon: github
         href: https://github.com/aallyn
       - icon: envelope-at-fill
@@ -22,9 +29,6 @@ format:
     theme: simplex
     css: styles.css
     toc: true
-  # pdf:
-  #   author: Andrew Allyn
-  #   pdf-engine: weasyprint
 
 
 
