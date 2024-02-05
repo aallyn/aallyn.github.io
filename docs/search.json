@@ -18,7 +18,7 @@
     "href": "research/index.html",
     "title": "Research",
     "section": "",
-    "text": "Research projects coming soon…"
+    "text": "I am interested in developing and applying quantitative methods to understand the relationships between ecological processes and patterns and predict how these relationships might play out under future ecosystem conditions. Currently, I pursue this general interest working on a wide range of questions related to species distribution and abundance. Most of this work covers fairly broad spatial scales and long term, climatic time scales. Though certain projects do strive to provide results at more local spatial scales and over more near-term temporal scales better aligned with the time scales that decision making processes unfold. Along side the distribution and abundance work, I am also hoping to kick start some patch dynamics work, keying in on the fine-scale processes that generate foraging hotspots within marine ecosystems, providing the necessary energy transfer stations to support the growth, survival and productivity of apex predators."
   },
   {
     "objectID": "resume/index.html",
@@ -26,5 +26,54 @@
     "title": "Resume",
     "section": "",
     "text": "Download current CV"
+  },
+  {
+    "objectID": "research/index.html#correlations-to-mechanisms",
+    "href": "research/index.html#correlations-to-mechanisms",
+    "title": "Research",
+    "section": "",
+    "text": "Advancing our understanding of mechanistic understanding of species distribution and abundance shifts, with particular focus on the potential role of the environment versus predator-prey biological interactions."
+  },
+  {
+    "objectID": "research/index.html#single-species-to-biological-communities",
+    "href": "research/index.html#single-species-to-biological-communities",
+    "title": "Research",
+    "section": "",
+    "text": "Building our understanding of how biological communities and predator-prey interactions may respond to changing environmental conditions"
+  },
+  {
+    "objectID": "research/index.html#academic-to-practical",
+    "href": "research/index.html#academic-to-practical",
+    "title": "Research",
+    "section": "",
+    "text": "Increasing the connection between species distribution model products and stakeholder information needs"
+  },
+  {
+    "objectID": "research/index.html#applied-to-theoretical",
+    "href": "research/index.html#applied-to-theoretical",
+    "title": "Research",
+    "section": "",
+    "text": "Expanding our theoretical knowledge of spatio-temporal models and prediction skill across space and time scales to identify and contribute to targeted model developments. Research projects coming soon…"
+  },
+  {
+    "objectID": "research/index.html#species-distribution-and-abundance-under-changing-environmental-conditions",
+    "href": "research/index.html#species-distribution-and-abundance-under-changing-environmental-conditions",
+    "title": "Research",
+    "section": "Species Distribution and Abundance Under Changing Environmental Conditions",
+    "text": "Species Distribution and Abundance Under Changing Environmental Conditions\n\nCorrelations to Mechanisms\nAdvancing our understanding of mechanistic understanding of species distribution and abundance shifts, with particular focus on the potential role of the environment versus predator-prey biological interactions.\n\n\nSingle Species to Biological Communities\nBuilding our understanding of how biological communities and predator-prey interactions may respond to changing environmental conditions\n\n\nAcademic to Practical\nIncreasing the connection between species distribution model products and stakeholder information needs\n\n\nApplied to Theoretical\nExpanding our theoretical knowledge of spatio-temporal models and prediction skill across space and time scales to identify and contribute to targeted model developments."
+  },
+  {
+    "objectID": "research/index.html#patch-dynamics",
+    "href": "research/index.html#patch-dynamics",
+    "title": "Research",
+    "section": "Patch Dynamics",
+    "text": "Patch Dynamics\nResearch projects coming soon…"
+  },
+  {
+    "objectID": "research/index.html#overview",
+    "href": "research/index.html#overview",
+    "title": "Research",
+    "section": "",
+    "text": "I am interested in developing and applying quantitative methods to understand the relationships between ecological processes and patterns and predict how these relationships might play out under future ecosystem conditions. Currently, I pursue this general interest working on a wide range of questions related to species distribution and abundance. Most of this work covers fairly broad spatial scales and long term, climatic time scales. Though certain projects do strive to provide results at more local spatial scales and over more near-term temporal scales better aligned with the time scales that decision making processes unfold. Along side the distribution and abundance work, I am also hoping to kick start some patch dynamics work, keying in on the fine-scale processes that generate foraging hotspots within marine ecosystems, providing the necessary energy transfer stations to support the growth, survival and productivity of apex predators."
   }
 ]
