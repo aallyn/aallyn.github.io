@@ -8,10 +8,10 @@ about:
 ---
 <br />
 <p align="left"><strong>About me</strong><br />
-<br />
 <p align="left">
 My name is Andrew Allyn and I am a quantitative spatial ecologist working at the intersection of ecological theory and applied science. I strive to develop and apply cutting-edge approaches to understand and predict spatial relationships in marine ecosystems across temporal scales. Currently, I work as a senior research manager in <a href="https://www.gmri.org/about-us/who-we-are/staff/kathy-mills-phd">Dr. Kathy Mills’ Integrated Systems Ecology Lab at the Gulf of Maine Research Institute</a> in Portland, Maine. During my time at GMRI, I completed my PhD in Marine Science and Technology at the University of Massachusetts Amherst. I also did my master's research at the University of Massachusetts Amherst in Wildlife and Fisheries Conservation. My master's work included an extensive field work component studying the elusive Kittlitz's murrelet (*Brachyramphus brevirostris*) in Prince William Sound, Alaska. It was the habitat use patterns of that small seabird that ignited my interest in understanding and predicting the spatial dynamics of ecological phenomena. 
+</p>
+<p align="left">
+I continually benefit from the generosity of others providing their code and I am committed to contributing open, reproducible and collaborative science. To that end, I provide all of my research code on <a href="https://github.com/aallyn">GitHub</a>. I am always interested in helping others adapt my code for their purposes, or chatting more generally about climate biogeography, ecological forecasting, predator-prey dynamics, or marine spatial planning and resource management. I am also happy to discuss my work with more general audiences, especially college, high school or middle school students from under represented groups that have had limited exposure to the marine sciences world.
+</p>
 
-I continually benefit from the generosity of others providing their code and I am committed to contributing open, reproducible and collaborative science. To that end, I provide all of my research code on <a href="https://github.com/aallyn">GitHub</a>. I am always interested in helping others adapt my code for their purposes, or chatting more generally about climate biogeography, ecological forecasting, predator-prey dynamics, or marine spatial planning and resource management. I am also happy to discuss my work with more general audiences, especially college, high school or middle school students from under represented groups that have had limited exposure to the marine sciences world. 
-
-When I am not behind the computer or in the field collecting data, I am likely outside, somewhere, exploring the outdoors.</p>

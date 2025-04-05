@@ -2,21 +2,45 @@
 title: "Research"
 ---
 
-## Overview
 My mission is to support sustainable and equitable marine ecosystem management through advanced spatial ecology and prediction science. I develop and apply cutting-edge quantitative approaches to understand and predict spatial relationships in marine ecosystems across temporal scales. My research provides insights into how species distributions and predator-prey dynamics respond to environmental changes. I am particularly interested in how spatial and temporal scales impact our capacity to understand and predict ecological patterns. Throughout my work, I strive to generate actionable knowledge that stakeholders can immediately apply to marine spatial planning, sustainable resource management, and climate adaptation efforts.
 
 To accomplish this mission, I work across four research themes:
 
-1.  Climate biogeography: Mapping the redistribution of species and ecological communities under potential climate conditions to support adaptation planning efforts.  
-2.  Ecological forecasting: Validating existing frameworks and developing novel approaches to generate near-term predictions that inform management and conservation decisions at seasonal to decadal time scales.  
-3.  Predator-prey dynamics: Applying and enhancing joint species distribution models to understand how species-specific responses to ecosystem changes alter spatial and temporal relationships among predators and prey.
-4. Marine spatial planning and resource management: Incorporating model products into marine spatial planning, offshore wind energy development, and fisheries management to enhance resilience to future climate changes.
+1.  **Climate biogeography**: Mapping the redistribution of species and ecological communities under potential climate conditions to support adaptation planning efforts.  
+2.  **Ecological forecasting**: Validating existing frameworks and developing novel approaches to generate near-term predictions that inform management and conservation decisions at seasonal to decadal time scales.  
+3.  **Predator-prey dynamics**: Applying and enhancing joint species distribution models to understand how species-specific responses to ecosystem changes alter spatial and temporal relationships among predators and prey.
+4. **Marine spatial planning and resource management**: Incorporating model products into marine spatial planning, offshore wind energy development, and fisheries management to enhance resilience to future climate changes.
 
 ## Climate Biogeography
+### Overview
+
+### Current Projects
+- Cross Boundary
+
+### Publications
 
 ## Ecological Forecasting
+### Overview
+
+### Current Projects
+- CINAR Forecasting Worksop
+
+### Publications
+- NASA FaCeT prediction across LMEs
 
 ## Predator-Prey Dynamics
+### Overview
+
+### Current Projects
+- NECC
+
+### Publications
 
 ## Marine Spatial Planning and Resource Management 
+### Overview
+
+### Current Projects
+-  MAFMC
+
+### Publications
 
