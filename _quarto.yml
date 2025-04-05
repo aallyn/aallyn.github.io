@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
 
+publishing:
+  output-dir: docs
+
 freeze: true
 
 website:
