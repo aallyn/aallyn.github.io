@@ -3,21 +3,20 @@ title: "Research"
 ---
 
 ## Overview
-Testing more and again. I am interested in developing and applying quantitative methods to understand the relationships between ecological processes and patterns and then predict how these relationships might play out under future ecosystem conditions. Currently, I pursue this general interest working on a wide range of questions related to species distribution and abundance. Most of this work covers fairly broad spatial scales and long term, climatic time scales. Though, certain projects do strive to provide results at more local spatial scales and over more near-term temporal scales better aligned with the time scales that decision making processes unfold. Along side the distribution and abundance work, I am also hoping to kick start some patch dynamics work. This research would key in on the fine-scale processes that generate and maintain foraging hotspots within marine ecosystems, providing the necessary energy transfer stations to support the growth, survival and productivity of apex predators.
+My mission is to support sustainable and equitable marine ecosystem management through advanced spatial ecology and prediction science. I develop and apply cutting-edge quantitative approaches to understand and predict spatial relationships in marine ecosystems across temporal scales. My research provides insights into how species distributions and predator-prey dynamics respond to environmental changes. I am particularly interested in how spatial and temporal scales impact our capacity to understand and predict ecological patterns. Throughout my work, I strive to generate actionable knowledge that stakeholders can immediately apply to marine spatial planning, sustainable resource management, and climate adaptation efforts.
 
-## Species Distribution and Abundance Under Changing Environmental Conditions
+To accomplish this mission, I work across four research themes:
 
-### Correlations to Mechanisms
-Advancing our mechanistic understanding of species distribution and abundance shifts, with particular focus on the potential role of the environment versus predator-prey biological interactions. 
+1.  Climate biogeography: Mapping the redistribution of species and ecological communities under potential climate conditions to support adaptation planning efforts.  
+2.  Ecological forecasting: Validating existing frameworks and developing novel approaches to generate near-term predictions that inform management and conservation decisions at seasonal to decadal time scales.  
+3.  Predator-prey dynamics: Applying and enhancing joint species distribution models to understand how species-specific responses to ecosystem changes alter spatial and temporal relationships among predators and prey.
+4. Marine spatial planning and resource management: Incorporating model products into marine spatial planning, offshore wind energy development, and fisheries management to enhance resilience to future climate changes.
 
-### Single Species to Biological Communities
-Building our understanding of how biological communities and predator-prey interactions may respond to changing environmental conditions
+## Climate Biogeography
 
-### Academic to Practical
-Increasing the connection between species distribution model products and stakeholder information needs
+## Ecological Forecasting
 
-### Applied to Theoretical
-Expanding our theoretical knowledge of spatio-temporal models and prediction skill across space and time scales to identify and contribute to targeted model developments.
+## Predator-Prey Dynamics
 
-## Patch Dynamics
-Research projects coming soon...
+## Marine Spatial Planning and Resource Management 
+
