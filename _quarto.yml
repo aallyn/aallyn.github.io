@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - styles.css
+    - resume/Resume.pdf
 
 publishing:
   output-dir: docs
@@ -8,7 +11,7 @@ publishing:
 freeze: true
 
 website:
-  title: "Andrew Allyn"
+  title: "Andrew Allyn - Spatial Dynamics and Prediction"
   search: false
   navbar:
     right:
@@ -16,8 +19,8 @@ website:
         href: index.qmd
       - text: "Research"
         href: research/index.qmd
-      - text: "Ramblings"
-        href: ramblings/index.qmd
+      # - text: "Ramblings"
+      #   href: ramblings/index.qmd
       - text: "Resume"
         href: resume/index.qmd
       - icon: github

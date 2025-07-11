@@ -11,6 +11,28 @@
 /*---cv---*/
 
 .cvdate {
-  float: right;
-  font-style: italic
+	float: right;
+	font-style: italic
+}
+
+/* Custom style for just the CV download button */
+.cv-download {
+	background-color: #3b82f6 !important;
+	/* Tailwind blue-500 */
+	border-color: #3b82f6 !important;
+	color: white !important;
+}
+
+.cv-download:hover {
+	background-color: #2563eb !important;
+	/* Tailwind blue-600 */
+	border-color: #2563eb !important;
+	color: white !important;
+}
+
+.btn-primary,
+.btn-primary:hover {
+	background-image: linear-gradient(#2563eb, #2563eb 6%, #2563eb);
+	filter: none;
+	border: 1px solid rgb(188.79, 30.45, 13.05);
 }
